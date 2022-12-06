@@ -1,6 +1,6 @@
 import {Sequelize} from 'sequelize'
 
-const dataBase = new Sequelize('crudfullstack', 'root', '', {
+const dataBase = new Sequelize('crud', 'root', '', {
   host: 'localhost',
   dialect: 'mysql'
 })
